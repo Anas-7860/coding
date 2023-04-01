@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+// using constructor to find the area of rectangle 
+class rectangle{
+    int x,y;
+    public:
+    rectangle(){
+        cout<<"enter length :";
+        cin>>x;
+        cout<<"enter width :";
+        cin>>y;
+        cout<<"area of rectangle :"<<x*y;
+
+    }
+};
+int main(){
+rectangle rect;
+return 0;
+}
